@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta id="touch-event-mode" content="native"/>
+	<title>Palabra Clave</title>
+	<link rel="stylesheet" href="css/general.css" />
+	<script type="text/javascript" src="js/datos.js"></script>
+	<script type="text/javascript" src="js/general.js"></script>
+	<script src="local:///chrome/webworks.js" type="text/javascript"></script>
+	</head>
+<body>
+	<div id="cabecera">
+		<div id="cuenta_atras"></div>
+		<img title="Comenzar Partida" onclick="javascript:comenzar_partida();" src="images/update-product.png" alt="Comenzar Partida" />
+		<img title="Configurar Partida" onclick="javascript:configurar();" src="images/system-run-3.png" alt="Configurar Partida" />
+		<img title="Ver Puntuaciones" onclick="javascript:puntuaciones();" src="images/view-statistics.png" alt="Ver Puntuaciones" />
+		<img title="Ayuda del Programa" onclick="javascript:ayuda();" src="images/system-help-2.png" alt="Ayuda del Programa" />
+		<img title="Salir del Programa" onclick="javascript:salir();" src="images/application-exit-2.png" alt="Salir del Programa" />
+	</div>
+
+<div id="contenido">
+	<div id="info_rondas"></div>
+
+	<div id="enlace_anterior"></div>
+	<div id="cont_palabras">
+		<div id="botones_inicio">
+			<a href="javascript:ayuda();" class="btn"><img align="absmiddle" title="Ayuda del Programa" src="images/system-help-2.png" alt="Ayuda del Programa" /> Ayuda del Programa</a>
+			<a href="javascript:configurar();" class="btn"><img align="absmiddle" title="Configurar Partida" src="images/system-run-3.png" alt="Configurar Partida" /> Configurar Partida</a>
+			<a href="javascript:comenzar_partida();" class="btn"><img align="absmiddle" title="Comenzar Partida" src="images/update-product.png" alt="Comenzar Partida" /> Comenzar Partida</a>
+		</div>
+	</div>
+	<div id="enlace_siguiente"></div>
+</div>
+
+<div id="cierra_info"><img onclick="javascript:oculta_info();" src="images/close.png" alt="Cerrar" /></div>
+<div id="info_general"></div>
+<div id="fade"></div>
+<div id="div_tmp"></div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+		xmlns:rim="http://www.blackberry.com/ns/widgets"
+		version="1.2.0.0" id="PalabraClave">
+
+	<license>Copyright (c) 2012 Carlos Longarela
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, INSULT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</license>
+
+	<author href="http://lamora.longarela.eu/"
+		rim:copyright="Copyright Carlos Longarela 2012">Carlos Longarela</author>
+
+	<name>Palabra Clave</name>
+
+	<description>
+		Juego para adivinir una palabra clave con pistas y tiempo de cuenta atras
+	</description>
+
+	<content src="index.htm" charset="utf-8" />
+
+	<icon src="images/icon-86.png" />
+	<icon src="images/icon-150.png"/>
+
+	<rim:splash src="images/splash-1280x768.jpg"/>
+
+	<feature id="blackberry.app">
+		<param name="mode" value="landscape" />
+	</feature>
+</widget>
